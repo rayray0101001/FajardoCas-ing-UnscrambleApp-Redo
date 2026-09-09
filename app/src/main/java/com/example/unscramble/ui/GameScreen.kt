@@ -22,7 +22,17 @@ fun GameScreen() {
         mutableStateOf("")
     }
 
-    val correctAnswer = "CAT"
+    val words = listOf(
+        "CAT",
+        "DOG",
+        "BOOK"
+    )
+
+    var currentWordIndex by remember {
+        mutableStateOf(0)
+    }
+
+    val correctAnswer = words[currentWordIndex]
 
     var score by remember {
         mutableStateOf(0)
@@ -40,7 +50,7 @@ fun GameScreen() {
         )
 
         Text(
-            text = "TAC",
+            text = correctAnswer,
             fontSize = 40.sp
         )
 
@@ -60,9 +70,17 @@ fun GameScreen() {
 
         Button(
             onClick = {
+
                 if (userAnswer == correctAnswer) {
+
                     score++
+
+                    if (currentWordIndex < words.size - 1) {
+                        currentWordIndex++
+                        userAnswer = ""
+                    }
                 }
+
             }
         ) {
             Text("SUBMIT")
