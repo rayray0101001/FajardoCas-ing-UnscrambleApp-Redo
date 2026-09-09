@@ -1,0 +1,20 @@
+[33m9c14ff3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{0}: reset: moving to 9c14ff3
+[33m9c14ff3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{1}: reset: moving to 9c14ff3
+[33m9471767[m HEAD@{2}: Branch: renamed refs/heads/temporary_branch to refs/heads/main
+[33m9471767[m HEAD@{4}: commit (initial): Unscramble App: Complete Phase & Implemantation
+[33m9c14ff3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{5}: Branch: renamed refs/heads/mainsh to refs/heads/main
+[33m9c14ff3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{7}: Branch: renamed refs/heads/master to refs/heads/mainsh
+[33m9c14ff3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{9}: commit: Complete Phase 7: UI State and StateFlow implementation
+[33md3c385a[m HEAD@{10}: commit: Phase 6
+[33m0105d81[m HEAD@{11}: commit: Phase 6
+[33m1510aef[m HEAD@{12}: commit: Phase 6
+[33mdd4fbdc[m HEAD@{13}: commit (amend): Update README.md
+[33mea61be4[m HEAD@{14}: commit: Update README.md
+[33m0c22119[m HEAD@{15}: commit: Update README.md
+[33m70c7906[m HEAD@{16}: rebase (finish): returning to refs/heads/master
+[33m70c7906[m HEAD@{17}: rebase (pick): Update README.md
+[33mb27ecbe[m HEAD@{18}: rebase (continue): Update README.md
+[33m57b8cce[m[33m ([m[1;34mgrafted[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{19}: pull origin master --rebase (start): checkout 57b8cce76203cb17c072d0efe8f7200f461cbd30
+[33me7d2fff[m HEAD@{20}: commit: Update README.md
+[33m98453c2[m HEAD@{21}: commit (amend): Update README.md
+[33m57b8cce[m[33m ([m[1;34mgrafted[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{22}: clone: from https://github.com/MechaArms/Unscramble-App
