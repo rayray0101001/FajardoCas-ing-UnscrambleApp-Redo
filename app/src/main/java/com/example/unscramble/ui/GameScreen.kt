@@ -22,6 +22,12 @@ fun GameScreen() {
         mutableStateOf("")
     }
 
+    val correctAnswer = "CAT"
+
+    var score by remember {
+        mutableStateOf(0)
+    }
+
     Column(
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -53,13 +59,17 @@ fun GameScreen() {
         )
 
         Button(
-            onClick = { }
+            onClick = {
+                if (userAnswer == correctAnswer) {
+                    score++
+                }
+            }
         ) {
             Text("SUBMIT")
         }
 
         Text(
-            text = "Score: 0"
+            text = "Score: $score"
         )
     }
 }
